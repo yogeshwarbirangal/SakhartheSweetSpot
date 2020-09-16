@@ -1,0 +1,102 @@
+*{
+    box-sizing: border-box;
+}
+
+.navbar{
+
+    background-color: rgb(10, 77, 54) !important;
+    
+}
+
+
+.banner img{
+
+    height: 150px;
+    width: max-content%;
+    margin-top: 2px;
+}
+
+.gallery{
+
+    background: rgb(9, 158, 108);
+    min-height: 100vh;
+}
+.gallery h1{
+
+    font-family: cursive;
+    font-size: 2.5rem;
+    text-align: center;
+    padding: 5vh 0;
+}
+.gallery .container .row div img{
+
+       height: 60vh;
+       width: 100%;
+}
+
+.quote {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 2rem;
+        font-weight: 600;
+        text-align: center;
+        padding:10vh 0;
+}
+
+.banner img{
+
+    height: 50vh;
+    width: 100%;
+}
+
+.footer-info{
+
+        min-height: 15vh;
+        background-color: rgb(13, 14, 13);
+        padding:5vh 0;
+}
+
+.footer-info p{
+
+    text-align: center;
+    color:#fff;
+    font-size: 1.2rem;
+}
+.social-icons{
+
+        text-align: center;
+        padding:5vh 0;
+}
+
+
+.social-icons a{
+
+    font-size: 2.2rem;
+    padding:0 1vw;
+    color:rgb(247, 240, 240);
+    text-decoration: none;
+}
+
+.social-icons a:hover{
+
+    text-decoration: none;
+    color:rgb(20, 183, 189)
+}
+
+@media (max-width:420px)
+{
+    .footer-info p{
+
+            padding:1rem 0;
+
+    }
+
+    .gallery .container .row div img{
+
+        margin-top: 1.2rem;
+        height: 40vh;
+ }
+    .navbar-toggler
+    {
+        color:white;
+    }
+}
